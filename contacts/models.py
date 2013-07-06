@@ -17,3 +17,6 @@ class Contact(models.Model):
             self.last_name,
             self.email
         )
+
+    def full_name(self):
+        return "{0} {1}".format(self.first_name, self.last_name)
