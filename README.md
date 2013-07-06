@@ -10,4 +10,4 @@ Commands frequently used
 * django-admin.py startproject myproject -- create initial project base 
 * django-admin.py startapp contacts -- create application base
 * python manage.py syncdb -- make db file, inside myproject directory
-
+* python manage.py shell -- to launch a project specific iPython shell
